@@ -12,5 +12,4 @@ for keys,values in data.items():
 
 a = Counter(result_list)
 pprint(a)
-pprint(a)
-
+"""dfghsfjkdgslfdglsjdkfghui"""
