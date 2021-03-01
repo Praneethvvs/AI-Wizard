@@ -13,4 +13,4 @@ for keys,values in data.items():
 a = Counter(result_list)
 pprint(a)
 
-print("Changes in branch2")
+print("Changes in branch1")
