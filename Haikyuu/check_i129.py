@@ -2,15 +2,9 @@ import json
 from collections import Counter
 from pprint import pprint
 
-with open("i129.json") as f:
-    data  = json.load(f)
+a = "123451"
 
-result_list = []
-for keys,values in data.items():
-    result_list.extend(list(values.keys()))
+x = dict(map(reversed, enumerate(a)))["1"]
 
 
-a = Counter(result_list)
-pprint(a)
-
-print("Changes in branch1")
+print(next(enumerate(a)))
